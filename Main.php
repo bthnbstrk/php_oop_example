@@ -1,8 +1,8 @@
 <?php
 require_once 'vendor/autoload.php';
 
-$helper = new \Batuhan\EpttavmCase\ServiceProviders\DataProvider();
-$products= $helper->fetchData();
+$provider = new \Batuhan\EpttavmCase\ServiceProviders\DataProvider();
+$products= $provider->fetchData();
 
 $platform_facebook = new \Batuhan\EpttavmCase\Platforms\Platform();
 $platform_facebook->name = "Facebook";
