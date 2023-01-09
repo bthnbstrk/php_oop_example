@@ -1,0 +1,15 @@
+{
+    "name": "batuhan/epttavm_case",
+    "autoload": {
+        "psr-4": {
+            "Batuhan\\EpttavmCase\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Batuhan BAŞTÜRK",
+            "email": "37836695+bthnbstrk@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
